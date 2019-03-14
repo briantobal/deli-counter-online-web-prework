@@ -20,7 +20,6 @@ end
 
 def take_a_number (arrk_d, name)
   arrk_d << name
-  #var_line_number = arrk_d.size
   num_in_l = "Welcome, #{name}. You are number #{arrk_d.size} in line."
   
   puts num_in_l
