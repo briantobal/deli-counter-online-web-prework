@@ -16,6 +16,8 @@ def line(deli)
 end
 
 
+
+
 def take_a_number (arrk_d, name)
   arrk_d << name
   var_line_number = arrk_d.size
@@ -23,10 +25,14 @@ def take_a_number (arrk_d, name)
   
   puts num_in_l
   
-  #should accent two arguments - the array for the current line of people (katz_deli)
+  #should accept two arguments - the array for the current line of people (katz_deli)
   #and a string with the name of the person joining the end of the line 
   #the method should puts the person's name along with their position in line (start at 1 not 0)
 end 
+
+
+
+
 
 def now_serving(arr)
   if arr.empty?
